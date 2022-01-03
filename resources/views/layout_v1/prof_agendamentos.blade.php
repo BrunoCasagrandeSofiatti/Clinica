@@ -6,7 +6,7 @@
 
 @section ('diretory', 'Agenda')
 
-@section('autofalante','2')
+@section('autofalante','1')
 
 @section('head')
  <head>
@@ -171,7 +171,7 @@
               <form class="form-horizontal">
                 <div class="card-body">
                   <div class="form-group row">                    
-                    <div class="col-sm-10">
+                    <div class="col-sm-7">
                     <input type="hidden" id="id_consulta" class="form-control">
                       <textarea class="form-control" id="descricao" name="descricao" required></textarea>
                     </div>
@@ -254,18 +254,9 @@
   $('.toastsDefaultWarning').click(function() {
     $(document).Toasts('create', {
       class: 'bg-warning', 
-      title: 'Orientações para Agendamento Imediato',
+      title: 'Orientações para Atendimento de Paciente',
        subtitle: 'Orientações',
-      body: 'Utilize a opção "Criar Agendamento emidiato" quando o horário desejado estiver disponivel.'
-      
-    })
-  });
-  $('.toastsDefaultWarning').click(function() {
-    $(document).Toasts('create', {
-      class: 'bg-warning', 
-      title: 'Orientações para Encaixe',
-       subtitle: 'Orientações',
-      body: 'Utilize a opção "Criar Agendamento emidiato" quando o horário desejado estiver disponivel.'
+      body: 'Para iniciar uma consulta basta selecionar com o mouse o paciente desejado no calendario médico.'
       
     })
   });

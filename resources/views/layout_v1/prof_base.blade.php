@@ -104,35 +104,8 @@
    </a>
 
    <li  class="nav-item">
-   <a class="nav-link"
-   href="/relatorios">
-    <i class="nav-icon fas fa-copy"></i>
-    <p>Relatórios
-    <span class="badge badge-success right"></span>
-    </p>
-   </a> 
 
 
-    
-    <li  class="nav-header">CONFIGURAÇÕES DE CONTAS
-</li>
-
-<li  class="nav-item">
-    <a class="nav-link"
-       href="/admin/settings">
-        <i class="nav-icon fas fa-fw fa-user "></i>
-        <p>Usuários</p>
-    </a>
-
-</li>
-<li  class="nav-item">
-    <a class="nav-link"
-       href="/perfis">
-        <i class="nav-icon fas fa-fw fa-lock "></i>
-        <p>Perfis</p>
-    </a>
-
-</li>
         </nav>
     </div>
 

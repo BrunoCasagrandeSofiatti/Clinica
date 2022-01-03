@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\User;
+use Illuminate\Support\Facades\Auth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
+$login = Auth::id();
+$perfil = User::select("id_perfil")->where('id', '=', "$login")->value('id_perfil'); 
 
 Route::get('/home', function () {
     return view('layout\base');

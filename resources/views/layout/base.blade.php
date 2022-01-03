@@ -100,14 +100,14 @@
        </p>
    </a>
 
-   <li  class="nav-item">
+<!--   <li  class="nav-item">
    <a class="nav-link"
    href="/relatorios">
     <i class="nav-icon fas fa-copy"></i>
     <p>Relatórios
     <span class="badge badge-success right"></span>
     </p>
-   </a> 
+   </a> --!>
 
 
     <li>

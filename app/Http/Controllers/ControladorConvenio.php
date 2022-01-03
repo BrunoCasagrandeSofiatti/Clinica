@@ -4,16 +4,26 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\User;
+use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\Controller;
 use App\Convenios;
 use PhpParser\Node\Expr\Isset_;
 
+
+
 class ControladorConvenio extends Controller
 {
+
     public function indexView()
     {
-     //   $conv = Convenios::paginate(2);
-     //   return view('layout/convenios', compact('conv'));
-     return view('layout/convenios');
+        $login = Auth::id();
+        $perfil = User::select("id_perfil")->where('id', '=', "$login")->value('id_perfil'); 
+
+        if($perfil == 1){
+            return view('layout/convenios');
+        } 
+        return response('Acesso não permitido para esse perfil');     
     }
 
     public function index()

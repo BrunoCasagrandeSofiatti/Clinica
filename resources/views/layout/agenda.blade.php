@@ -374,7 +374,7 @@
       class: 'bg-warning', 
       title: 'Orientações para Agendamento Imediato',
        subtitle: 'Orientações',
-      body: 'Utilize a opção "Criar Agendamento emidiato" quando o horário desejado estiver disponivel.'
+      body: 'Para realizar um agendamento imediato basta selecinoar a agenda médica e posteriomente clicar sobre um horário disponivel.'
       
     })
   });
@@ -384,7 +384,7 @@
       class: 'bg-warning', 
       title: 'Orientações para Encaixe',
        subtitle: 'Orientações',
-      body: 'Utilize a opção "Criar Agendamento emidiato" quando o horário desejado estiver disponivel.'
+      body: 'Quando não for possivel realizar um agendamento imediato, basta incluir o paciente na listagem de encaixes, não se esqueça de selecionar a prioridade do encaixe!'
       
     })
   });
